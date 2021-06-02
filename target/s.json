@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validating add to cart functionality",
+        "description": "",
+        "id": "checking-amaxon-cart--functionality;validating-add-to-cart-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5125297200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the Login page",
+            "match": {
+              "location": "Stepdef.user_open_the_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3135716400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logging into page wth valid username and password",
+            "match": {
+              "location": "Stepdef.user_logging_into_page_wth_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8747815700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adding a product to cart",
+            "match": {
+              "location": "Stepdef.user_adding_a_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is able to add the prodcut to cart or not",
+            "match": {
+              "location": "Stepdef.user_is_able_to_add_the_prodcut_to_cart_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "checking amaxon cart  Functionality",
+    "description": "",
+    "id": "checking-amaxon-cart--functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Flip.feature",
+    "tags": []
+  }
+]

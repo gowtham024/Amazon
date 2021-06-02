@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.01132">
+<testcase classname="checking amaxon cart  Functionality" name="validating add to cart functionality" time="17.01132">
+<system-out><![CDATA[Given user open the Login page..............................................passed
+When user logging into page wth valid username and password.................passed
+And user adding a product to cart...........................................passed
+Then user is able to add the prodcut to cart or not.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
